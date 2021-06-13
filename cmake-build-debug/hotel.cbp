@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="hotel"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/felipe/Documents/hotel/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/felipe/Documents/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/felipe/Documents/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/felipe/Documents/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/felipe/Documents/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/felipe/Documents/hotel/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/felipe/Documents/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/felipe/Documents/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/felipe/Documents/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/felipe/Documents/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/felipe/Documents/hotel/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/felipe/Documents/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/felipe/Documents/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/felipe/Documents/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/felipe/Documents/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hotel">
+				<Option output="/home/felipe/Documents/hotel/cmake-build-debug/hotel" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/felipe/Documents/hotel/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/felipe/Documents/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 hotel"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/felipe/Documents/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/felipe/Documents/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/felipe/Documents/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hotel/fast">
+				<Option output="/home/felipe/Documents/hotel/cmake-build-debug/hotel" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/felipe/Documents/hotel/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/felipe/Documents/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 hotel/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/felipe/Documents/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/felipe/Documents/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/felipe/Documents/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/felipe/Documents/hotel/acomodacao.c">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/acomodacao.h">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/categoriaAcomodacao.c">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/categoriaAcomodacao.h">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/exportar.c">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/exportar.h">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/feedback.c">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/feedback.h">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/fornecedor.c">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/fornecedor.h">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/horaData.c">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/horaData.h">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/hospede.c">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/hospede.h">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/hotel.c">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/hotel.h">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/main.c">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/operadorSistema.c">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/operadorSistema.h">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/produtosDisponiveis.c">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/produtosDisponiveis.h">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/reserva.c">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/reserva.h">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/transacoes.c">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/transacoes.h">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/vendas.c">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/vendas.h">
+			<Option target="hotel"/>
+		</Unit>
+		<Unit filename="/home/felipe/Documents/hotel/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
